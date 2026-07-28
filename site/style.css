@@ -21,3 +21,9 @@ body {
         background-position: 0% 50%;
     }
 }
+header,
+main,
+footer {
+    text-align: center;
+    padding: 20px;
+}
