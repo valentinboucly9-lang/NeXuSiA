@@ -128,3 +128,20 @@ nav {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    transition: 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+main {
+    padding: 40px 20px 60px;
+}
