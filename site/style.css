@@ -1,1 +1,23 @@
 /* NeXuSiA - Feuille de style principale */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #d8eaff, #e8d9ff, #d9fff0, #fff0d9);
+    background-size: 400% 400%;
+    animation: fondChangeant 20s ease infinite;
+}
+
+@keyframes fondChangeant {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
